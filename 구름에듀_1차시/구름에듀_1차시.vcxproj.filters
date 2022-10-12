@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="369 게임 박수의 개수.c">
+    <ClCompile Include="1-2.배열의 순서 뒤집기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
