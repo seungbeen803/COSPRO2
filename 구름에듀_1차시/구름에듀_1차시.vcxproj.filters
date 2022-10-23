@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1-5. 영어 수강 대상자 수 구하기.c">
+    <ClCompile Include="1-6. 팰린드롬 판단하기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
