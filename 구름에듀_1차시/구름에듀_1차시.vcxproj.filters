@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2-1. 최대한 많은 쌍의 장갑 갯수 구하기.c">
+    <ClCompile Include="2-2. 더 많은 배수 구하기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
