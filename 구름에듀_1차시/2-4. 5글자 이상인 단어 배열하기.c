@@ -1,7 +1,9 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
+
 
 char* solution(char* words[], int words_len) {
     char* answer = "";
@@ -16,7 +18,8 @@ char* solution(char* words[], int words_len) {
     for (int i = 0; i < words_len; i++) {
         if (strlen(words[i]) >= 5) {
             // strcat함수 사용하기
-            // strcat_s(
+            // strcat_s
+            #pragma warning(disable:4996) // C4996 에러를 무시
             strcat(answer, words[i]);
         }
     }
