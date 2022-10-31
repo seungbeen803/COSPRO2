@@ -9,7 +9,7 @@ char* solution(char* words[], int words_len) {
     char* answer = "";
 
     // 동적할당
-    answer = (int*)malloc(sizeof(int) * words_len);
+    answer = (char*)malloc(sizeof(char) * (words_len * 10 +1));
 
     // 배열 초기화
     answer[0] = 0;
@@ -18,8 +18,7 @@ char* solution(char* words[], int words_len) {
     for (int i = 0; i < words_len; i++) {
         if (strlen(words[i]) >= 5) {
             // strcat함수 사용하기
-            // strcat_s
-            #pragma warning(disable:4996) // C4996 에러를 무시
+            // #pragma warning(disable:4996) // C4996 에러를 무시
             strcat(answer, words[i]);
         }
     }
