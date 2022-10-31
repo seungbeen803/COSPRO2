@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2-4. 5글자 이상인 단어 배열하기.c">
+    <ClCompile Include="2-5. 몬스터 공격하기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
