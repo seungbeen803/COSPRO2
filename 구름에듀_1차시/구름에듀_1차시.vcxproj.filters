@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2-5. 몬스터 공격하기.c">
+    <ClCompile Include="2-6. 엘리베이터의 총 이동거리구하기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
