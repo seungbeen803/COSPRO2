@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2-7. 화씨, 섭씨 온도 바꾸기.c">
+    <ClCompile Include="2-8. 소수의 개수 구하기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
